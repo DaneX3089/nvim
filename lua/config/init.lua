@@ -1,0 +1,2 @@
+require("cmake-tools").setup({})
+
