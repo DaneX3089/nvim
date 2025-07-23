@@ -26,7 +26,7 @@ return {
                     ["<CR>"] = { "accept" , "fallback"},
                     ["<Tab>"] = { "select_next", "fallback" },
                     ["<S-Tab>"] = { "select_prev", "fallback" },
-                }, 
+                },
                 cmdline = {
                     enabled = false,
                     completion = { menu = { auto_show = true } },
