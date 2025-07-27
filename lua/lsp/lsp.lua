@@ -7,6 +7,7 @@ lspconfig.lua_ls.setup{}
 lspconfig.clangd.setup{}
 lspconfig.rust_analyzer.setup{}
 lspconfig.jdtls.setup{}
+lspconfig.zls.setup{}
 
 vim.diagnostic.config({
     virtual_lines = true,
