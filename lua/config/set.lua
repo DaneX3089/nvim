@@ -6,7 +6,7 @@ vim.cmd([[colorscheme gruvbox]])
 
 -- :help options
 vim.cmd(":hi statusline guibg=NONE")
-vim.o.winborder = "rounded"
+vim.o.winborder = "none"
 vim.opt.backup = false                          -- creates a backup file
 vim.opt.clipboard = "unnamedplus"               -- allows neovim to access the system clipboard
 vim.opt.cmdheight = 2                           -- more space in the neovim command line for displaying messages
