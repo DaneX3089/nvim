@@ -9,6 +9,17 @@ lspconfig.rust_analyzer.setup {}
 lspconfig.jdtls.setup {}
 lspconfig.zls.setup {}
 
+vim.lsp.config("lua_ls,", {
+  settings = {
+    Lua = {
+      workspace = {
+        library = vim.api.nvim_get_runtime_file("", true),
+      }
+    }
+  }
+})
+
+
 vim.diagnostic.config({
   virtual_lines = true,
   -- virtual_text = true,
