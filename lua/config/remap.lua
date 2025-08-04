@@ -8,3 +8,5 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live gr
 -- CMAKE
 vim.keymap.set("n", "<leader>cmr", ":CMakeRun<CR>", { desc = "Run CMake target" })
 
+
+vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
