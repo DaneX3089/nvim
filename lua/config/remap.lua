@@ -10,3 +10,6 @@ vim.keymap.set("n", "<leader>cmr", ":CMakeRun<CR>", { desc = "Run CMake target" 
 
 
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
+
+vim.keymap.set("n", "<leader>ld", vim.diagnostic.open_float, { desc = "Show diagnostics" })
+
