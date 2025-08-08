@@ -8,6 +8,7 @@ lspconfig.clangd.setup {}
 lspconfig.rust_analyzer.setup {}
 lspconfig.jdtls.setup {}
 lspconfig.zls.setup {}
+lspconfig.cmake.setup {}
 
 vim.lsp.config("lua_ls,", {
   settings = {
