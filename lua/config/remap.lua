@@ -8,10 +8,11 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live gr
 
 
 -- CMAKE
-vim.keymap.set("n", "<leader>cmr", ":CMakeRun<CR>", { desc = "Run CMake target" })
+vim.keymap.set("n", "<leader>r", ":CMakeRun<CR>", { desc = "Run CMake target" })
 
 
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
+vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)
 
 vim.keymap.set("n", "<leader>ld", vim.diagnostic.open_float, { desc = "Show diagnostics" })
 
