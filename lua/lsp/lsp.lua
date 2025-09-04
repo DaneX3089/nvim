@@ -29,6 +29,7 @@ lspconfig.rust_analyzer.setup({ capabilities = capabilities })
 lspconfig.jdtls.setup({ capabilities = capabilities })
 lspconfig.zls.setup({ capabilities = capabilities })
 lspconfig.cmake.setup({ capabilities = capabilities })
+lspconfig.glsl_analyzer.setup({ capabilities = capabilities })
 
 -- Diagnostic settings
 vim.diagnostic.config({

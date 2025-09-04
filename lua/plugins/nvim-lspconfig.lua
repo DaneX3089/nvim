@@ -11,6 +11,7 @@ return {
       jdtls = {},
       zls = {},
       cmake = {},
+      glsl_analyzer = {},
     },
   },
 

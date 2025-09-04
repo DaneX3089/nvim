@@ -1,5 +1,6 @@
 -- vim.keymap.set('n', '<C-n>', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
-vim.keymap.set("n", "<C-n>", ":Neotree toggle left<CR>", { desc = "Toggle Neo-tree on left" })
+-- vim.keymap.set("n", "<C-n>", ":Neotree toggle left<CR>", { desc = "Toggle Neo-tree on left" })
+vim.keymap.set("n", "<space>fb", ":Telescope file_browser<CR>")
 
 
 local builtin = require('telescope.builtin')
