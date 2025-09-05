@@ -1,11 +1,11 @@
 -- vim.g.loaded_netrw = 1
 -- vim.g.loaded_netrwPlugin = 1
 
-vim.cmd([[colorscheme codedark]])
+vim.cmd([[colorscheme vscode]])
 
 -- :help options
 vim.cmd(":hi statusline guibg=NONE")
--- vim.o.winborder = "rounded"
+vim.o.winborder = "rounded"
 vim.opt.backup = false                          -- creates a backup file
 vim.opt.clipboard = "unnamedplus"               -- allows neovim to access the system clipboard
 vim.opt.cmdheight = 2                           -- more space in the neovim command line for displaying messages
